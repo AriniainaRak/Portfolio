@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ariniaina - Développeur Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">A.</div>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="accueil">
+        <div class="container">
+            <div class="hero-content">
+                <h1>
+                    Bonjour, je suis<br>
+                    <span class="accent-text">Ariniaina</span>
+                </h1>
+                <p>Développeur web passionné, spécialisé dans la création d'expériences numériques élégantes et performantes.</p>
+                <div class="cta-buttons">
+                    <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+                    <a href="#contact" class="btn btn-secondary">Me contacter</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-window">
+                    <div class="window-header">
+                        <div class="window-dot"></div>
+                        <div class="window-dot"></div>
+                        <div class="window-dot"></div>
+                    </div>
+                    <div class="code-content">
+                        <div class="code-line"><span class="code-keyword">const</span> <span class="code-function">developer</span> = {</div>
+                        <div class="code-line">  name: <span class="code-string">'Ariniaina'</span>,</div>
+                        <div class="code-line">  skills: [<span class="code-string">'JavaScript'</span>, <span class="code-string">'React'</span>, <span class="code-string">'Node.js'</span>],</div>
+                        <div class="code-line">  passion: <span class="code-string">'Créer des solutions innovantes'</span></div>
+                        <div class="code-line">};</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="apropos">
+        <h2 class="section-title">À propos de moi</h2>
+        <p class="section-subtitle">Découvrez mon parcours et ma passion pour le développement</p>
+        
+        <div class="about-content">
+            <div class="about-text">
+                <p>
+                    Passionné par le développement web depuis plusieurs années, je me spécialise dans la création d'applications web modernes et performantes. Mon approche combine créativité et rigueur technique pour donner vie à des projets qui ont du sens.
+                </p>
+                <p>
+                    Actuellement étudiant, je cherche à mettre mes compétences au service d'une équipe dynamique dans le cadre d'un stage. Je suis particulièrement intéressé par les technologies front-end et le développement full-stack.
+                </p>
+                <p>
+                    Au-delà du code, j'aime apprendre continuellement, résoudre des problèmes complexes et collaborer avec d'autres passionnés pour créer des solutions innovantes.
+                </p>
+            </div>
+            
+            <div class="about-stats">
+                <div class="stat-card">
+                    <div class="stat-number">1+</div>
+                    <div class="stat-label">Année d'expérience</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">3+</div>
+                    <div class="stat-label">Projets réalisés</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">Technologies maîtrisées</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Dévouement</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="competences">
+        <h2 class="section-title">Compétences</h2>
+        <p class="section-subtitle">Technologies et outils que je maîtrise</p>
+        
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Language</h3>
+                <ul>
+                    <li>HTML5 & CSS</li>
+                    <li>JavaScript (ES6+)</li>
+                    <li>Java</li>
+                    <li>PHP</li>
+                    <li>Python</li>
+                    <li>SQL</li>
+                </ul>
+            </div>
+            
+            <div class="skill-category">
+                <h3>Framework</h3>
+                <ul>
+                    <li></li>
+                    <li>Laravel</li>
+                    <li>Django</li>
+                    <li>Codeigniter</li>
+                    <li>Bootstrap</li>
+                    <li>Spring</li>
+                </ul>
+            </div>
+            
+            <div class="skill-category">
+                <h3>Outils & Autres</h3>
+                <ul>
+                    <li>GitLab & GitHub</li>
+                    <li>VS Code</li>
+                    <li>Figma / AdobeXD</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projets">
+        <h2 class="section-title">Mes Projets</h2>
+        <p class="section-subtitle">Une sélection de mes réalisations</p>
+        
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">💼</div>
+                <div class="project-content">
+                    <h3>Application Gestion Reclamation</h3>
+                    <p>Plateforme de gestion des reclamations des clients pour un entreprise. Interface simple, moderne et responsive.</p>
+                    <div class="project-tags">
+                        <span class="tag">Javascript</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">PostgreSQL</span>
+                    </div>
+                    <a href="#" class="project-link">Voir le projet →</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image">🎨</div>
+                <div class="project-content">
+                    <h3>Portfolio Créatif</h3>
+                    <p>Site portfolio interactif pour un designer graphique avec galerie dynamique et animations fluides.</p>
+                    <div class="project-tags">
+                        <span class="tag">Vue.js</span>
+                        <span class="tag">CSS3</span>
+                        <span class="tag">GSAP</span>
+                    </div>
+                    <a href="#" class="project-link">Voir le projet →</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image">📱</div>
+                <div class="project-content">
+                    <h3>Application de Gestion</h3>
+                    <p>Outil de gestion de tâches collaboratif avec système d'authentification et tableaux de bord personnalisés.</p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Express</span>
+                        <span class="tag">PostgreSQL</span>
+                    </div>
+                    <a href="#" class="project-link">Voir le projet →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-title">Me Contacter</h2>
+        <p class="section-subtitle">Discutons de vos projets et opportunités</p>
+        
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Travaillons ensemble</h3>
+                <p>
+                    Je suis actuellement à la recherche d'un stage en développement web. 
+                    Si vous avez un projet intéressant ou si vous souhaitez simplement 
+                    échanger, n'hésitez pas à me contacter !
+                </p>
+                <p>
+                    Je suis disponible pour discuter de vos besoins et voir comment 
+                    je peux contribuer à vos projets.
+                </p>
+            </div>
+            
+            <div class="contact-links">
+                <a href="mailto:votre.email@exemple.com" class="contact-item">
+                    <div class="contact-icon">✉</div>
+                    <div class="contact-details">
+                        <div class="contact-label">Email</div>
+                        <div class="contact-value">ariniaina.tafita@gmail.com</div>
+                    </div>
+                </a>
+                
+                <a href="https://github.com/votreprofil" target="_blank" class="contact-item">
+                    <div class="contact-icon">⚡</div>
+                    <div class="contact-details">
+                        <div class="contact-label">GitHub</div>
+                        <div class="contact-value">github.com/AriniainaRak</div>
+                    </div>
+                </a>
+                
+                <a href="https://linkedin.com/in/votreprofil" target="_blank" class="contact-item">
+                    <div class="contact-icon">💼</div>
+                    <div class="contact-details">
+                        <div class="contact-label">LinkedIn</div>
+                        <div class="contact-value">linkedin.com/in/ariniaina-rakotobe-a67303275</div>
+                    </div>
+                </a>
+                
+                <a href="tel:+261000000000" class="contact-item">
+                    <div class="contact-icon">📱</div>
+                    <div class="contact-details">
+                        <div class="contact-label">Téléphone</div>
+                        <div class="contact-value">+230 55 34 12 76</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Ariniaina. Tous droits réservés.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
